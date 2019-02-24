@@ -35,6 +35,7 @@ const plugins = [
 	require('./ricochet-robots'),
 	require('./scrapbox'),
 	require('./deploy'),
+	require('./voiperrobot'),
 ];
 
 const rtmClient = new RTMClient(process.env.SLACK_TOKEN);
